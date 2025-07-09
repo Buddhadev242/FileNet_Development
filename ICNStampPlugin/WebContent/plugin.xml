@@ -1,0 +1,8 @@
+<plugin id="StampPlugin" name="Stamp Plugin" version="1.0">
+    <services>
+        <service id="StampService" className="com.turnpike.icnplugin.StampService"/>
+    </services>
+    <actions>
+        <action id="StampAction" className="stampPlugin.StampAction" name="Stamp Document" context="Document"/>
+    </actions>
+</plugin>
